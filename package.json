@@ -9,17 +9,10 @@
     "backend": "cd backend && npm start",
     "start": "concurrently \"npm run frontend\" \"npm run backend\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/donmanish/flower_bucket.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/donmanish/flower_bucket/issues"
-  },
-  "homepage": "https://github.com/donmanish/flower_bucket#readme",
+
   "dependencies": {
     "concurrently": "^7.6.0",
     "nodemon": "^2.0.20"
